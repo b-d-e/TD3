@@ -1,4 +1,7 @@
-﻿Learning to Walk With TD3![](figures/Aspose.Words.e0bff7be-d0af-4b9d-9938-0107f0a1dce7.001.png)
+﻿# Learning to Walk With TD3 #
+<!-- ![](figures/Aspose.Words.e0bff7be-d0af-4b9d-9938-0107f0a1dce7.001.png) -->
+
+![](figures/run-walker-run.gif)
 
 A peice of work submited as part of the 'Deep Learning and Reincforcement Learning' module within the Durham University Computer Science departemnt. 
 
