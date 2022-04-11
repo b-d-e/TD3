@@ -67,6 +67,7 @@ Notably, the agent appears to plateau just below a score of 300 (aside from the 
 **3  Limitations![](figures/Aspose.Words.e0bff7be-d0af-4b9d-9938-0107f0a1dce7.001.png)**
 
 While the model here does converge, it is not consistently stable - it can be seen there are a series of points where performance drops off rapidly, for instance at roughly 220 episodes. This is likely due in part to the way the replay buffer is being handled, with valuable experiences being discarded and the agent loosing memory of suitable sample action pairs. The basic replay buffer being used selects experiences entirely stochastically, without any regard for how useful said experience is to learn from, and is hence limiting training (convergence) time, and potentially also final performance accuracy. 
+
 **Future Work**
 
 To improve this system further, a Priority Experience Replay buffer should be introduced. A PER seeks to sample from experiences in such a way that more valuable experiences (e.g. higher reward) are more likely to be sampled, whilst still guaranteeing that every experience in the buffer has a non-zero chance of being sampled. Schaul et al [2] [sho](#_page2_x108.00_y443.05)w that a PER can yield major perforamnce and stability benefits, with unchanging error frequency over training iterations.
