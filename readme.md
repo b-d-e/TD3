@@ -1,4 +1,4 @@
-﻿# Learning to Walk With TD3 #
+﻿# Learning to Run With TD3 #
 <!-- ![](figures/Aspose.Words.e0bff7be-d0af-4b9d-9938-0107f0a1dce7.001.png) -->
 
 ![](figures/run-walker-run.gif)
